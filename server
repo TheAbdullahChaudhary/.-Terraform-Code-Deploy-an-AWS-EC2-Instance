@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+main {
+    margin: 50px 20px;
+}
+
+main h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+main a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background: white;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">HelloWorld</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Hello World!</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </main>
+
+    <footer>
+        <p>© 2019 - HelloWorld - <a href="#">Privacy</a></p>
+    </footer>
+</body>
+</html>
+
